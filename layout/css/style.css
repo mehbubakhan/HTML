@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+    color: black;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    color: black;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.start{
+    width: 70%;
+    height: 400px;
+}
+.start .up h1{
+    height: 200px;
+    background-color: blueviolet;
+    text-align: center;
+    color: #000;
+}
+.start .down h1{
+    height: 200px;
+    background-color: rgb(122, 15, 90);
+    text-align: center;
+    color: #000;
+}
+.end{
+    width: 30%;
+    height: 400px;
+    background-color: blue;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rebeccapurple;
+    color: #000;
+    text-align: center;
+}

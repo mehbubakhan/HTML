@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form method="">
+        <label for="name">Full Name:</label>
+        <input type="text" name="" id="name" autocomplete="off" required ><br>
+
+        <label for="email">Email address:</label>
+        <input type="email" name="" id="email" autocomplete="off" required><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" name="" id="pass" autocomplete="off" required><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="Gender" value="Male" id="gender">Male<br>
+        <input type="radio" name="Gender" value="Female" id="gender">Female<br>
+        <input type="radio" name="Gender" value="Other" id="gender">Other<br>
+
+        <label for="cheek">Skills:</label><br>
+        <input type="checkbox" name="cheek" value="HTML" id="cheek">HTML<br>
+        <input type="checkbox" name="cheek" value="CSS" id="cheek">CSS<br>
+        <input type="checkbox" name="cheek" value="C" id="cheek">C<br>
+        <input type="checkbox" name="cheek" value="C++" id="cheek">C++<br>
+        <input type="checkbox" name="cheek" value="Java" id="cheek">Java<br>
+        <input type="checkbox" name="cheek" value="JS" id="cheek">JS<br>
+        <input type="checkbox" name="cheek" value="Python" id="cheek">Python<br>
+        <input type="checkbox" name="cheek" value="PHP" id="cheek">PHP<br>
+
+        <label for="DOB">Date of birth</label>
+        <input type="Date" name="date" id="DOB" required><br>
+
+        <label for="quantity">Work experience(year):</label>
+        <input type="number" name="number" id="quantity"><br>
+
+        <label for="web">Enter your facebook link:</label>
+        <input type="url" name="" id="web" placeholder="Enter Your Facebook URL"><br>
+
+        <label for="lang">Proficiency in language:</label>
+        <select name="" id="lang">
+            <option value="none">Select a language</option>
+            <option value="Bn">Bangla</option>
+            <option value="Eng">English</option>
+            <option value="Hnd">Hindi</option>
+        </select><br>
+
+        <label for="file">Feedback:</label><br>
+        <textarea name="" id="file" cols="30" rows="10" placeholder="Write your feedback" maxlength="50"></textarea><br>
+
+        <label for="file">Attach image:</label><br>
+        <input type="file" name="image" id="file"><br>
+        <input type="submit" value="Submit">
+
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    text-align: center;
+    margin: 8% 0% 5% 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.form{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: #F0EBF9;
+}
+.form .left{
+    width: 60%;
+    padding: 50px 40px;
+}
+.form .left h2{
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.left .info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.left .info .name{
+    width: 45%;
+}
+.left .info .name label{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.left .info .name input{
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    background-color: white;
+    padding: 10px 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.left .info .email{
+    width: 45%;
+}
+.left .info .email label{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.left .info .email input{
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    background-color: white;
+    padding: 10px 5px;
+    font-family: 'Poppins', sans-serif;  
+}
+.left .subject{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.left .subject label{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.left .subject input{
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    background-color: white;
+    padding: 10px 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.left .sms{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.left .sms label{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.left .sms textarea{
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    background-color: white;
+    padding: 10px 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.left .button input{
+    width: 20%;
+    height: 30px;
+    background-color: rgb(16, 16, 185);
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right{
+    width: 40%;
+}
+.information{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 40px 5px;
+    justify-content: space-between;
+}
+.information .address{
+    width: 25%;
+}
+.information .address .icon{
+    width: 50px;
+    height: 50px;
+   background-color: #255388;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 50px;
+   color: white;
+   font-size: 16px;
+   margin: auto;
+   margin-bottom: 10px;
+}
+.information .address .details{
+    text-align: center;
+}

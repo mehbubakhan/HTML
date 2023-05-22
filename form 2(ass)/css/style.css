@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #626262;
+    padding: 100px;
+}
+header h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.information{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.information .address{
+    width: 100%;
+}
+.information .address .icon{
+    margin: auto;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.information .address .details{
+    text-align: center;
+}
+.form_desing{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+.form_desing .form{
+    width: 60%;
+    padding: 80px 50px;
+}
+.form_desing .form h3{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.form_desing .form .info{
+    display: flex;
+    justify-content: space-between;
+}
+.form_desing .form .info .name{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.form_desing .form .info .name label{
+    text-align: left;
+}
+.form_desing .form .info .name input{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+.form_desing .form .info .email{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.form_desing .form .info .email label{
+    text-align: left;
+}
+.form_desing .form .info .email input{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+.form_desing .form .subject{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form_desing .form .subject label{
+    width: 100%;
+}
+.form_desing .form .subject input{
+    width: 100%;  
+    padding: 5px;
+    margin-top: 5px;
+}
+.form_desing .form .sms{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form_desing .form .sms label{
+    width: 100%;
+}
+.form_desing .form .sms textarea{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+.form_desing .form .button{
+    width: 20%;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+.form_desing .pic{
+    width: 40%;
+}

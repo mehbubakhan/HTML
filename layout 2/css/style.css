@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+nav{
+    display: flex;
+}
+.start{
+    width: 20%;
+    height: 600px;
+    background-color: rgb(46, 11, 78);
+}
+.middle{
+    width: 60%;
+    height: 600px;
+    background-color: rgb(13, 50, 85);
+}
+.middle .up{
+    height: 100px;
+    background-color: aquamarine;
+}
+.middle .mid{
+    height: 400px;
+    background-color: rgb(38, 85, 69);
+}
+.middle .down{
+    height: 100px;
+    background-color: aquamarine;
+}
+.end{
+    width: 20%;
+    height: 600px;
+    background-color: rgb(46, 14, 77);
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
