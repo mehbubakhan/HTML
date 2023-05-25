@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 20px;
+
+align-items: center;
+}
+header .logo{
+
+width: 20%;
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+    list-style: none;display: flex;justify-content: right;
+}
+nav ul li{
+
+margin-left: 70px;
+
+font-size: 16px;
+}
+nav ul li a{
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+color: #2d3950;
+}
+nav ul li a:hover{
+    color: #15a4fa;
+}
+.banner{
+    width: 95%;
+    margin: auto;
+    background-image: url(../image/Banner.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.banner .banner_contant{
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.banner .banner_contant h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.banner .banner_contant span{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #15a4fa;
+    margin-bottom: 10px;
+}
+.banner .banner_contant h4{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.banner .banner_contant button{
+    border: none;
+    border: 1px solid #15a4fa;
+    background: transparent;
+    text-transform: capitalize;
+    color: white;
+    padding: 15px 25px;
+    transition: .4s all ease-in-out;
+    border-radius: 3px;
+}
+.banner .banner_contant button:hover{
+    background-color:#15a4fa ;
+}
+.banner .icon{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0px);
+    bottom: 150px;
+    font-size: 30px;
+    color: white;
+    animation: updown 1s linear infinite;
+    animation: alternate;
+
+}
+@keyframes updown{
+    0%{
+        margin-bottom: 150px;
+    }
+    100%{
+        margin-bottom: 170px;
+    }
+}
+.description{
+    width: 95%;
+    margin: auto;
+    background-color: #f6f9f9;
+}
+.description .des_contant{
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+}
+.description .des_contant h1{
+    text-align: center;
+    font-size: 40px;
+    color: #2d3950;
+    margin-bottom: 22px;
+}
+.description .banner_contant p{
+    font-size: 16px;
+    color: #aeafaf;
+}
+.items{
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.items .item{
+    width: 30%;
+    margin: auto;
+}
+.items .item .icons{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+100 */
+    background: #48baff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #48baff 0%, #48baff 50%, #5fc3ff 50%, #5fc3ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.items .item h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.items .item p{
+    text-align: center;
+}
+
